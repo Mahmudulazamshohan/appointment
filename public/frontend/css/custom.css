@@ -1,0 +1,213 @@
+.cursor-pointer:hover{
+	cursor: pointer;
+}
+.alert-success{
+	background-color: #40BAEB;
+	color: #fff;
+}
+.hide{
+	display: none;
+}
+#specialist-html-data img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#specialist-card .card-text{
+	min-height: 100px;
+}
+.btn-primary{
+	background-color: #40BAEB !important;
+	border-color: #189dd2 !important;
+}
+.calendar-dow .badge{
+	cursor: pointer;
+}
+/*.glyphicon-chevron-right:before {
+    content: "\e080";
+}
+.glyphicon-chevron-left:before {
+    content: "\e079";
+}*/
+.glyphicon::before {
+	border-style: solid;
+	border-width: 0.25em 0.25em 0 0;
+	content: '';
+	display: inline-block;
+	height: 1em;
+	width: 1em;
+	left: 0.15em;
+	position: relative;
+	top: 0.15em;
+	transform: rotate(-45deg);
+	vertical-align: top;
+	color: #40BAEB;
+}
+
+
+.glyphicon-chevron-right:before {
+	left: 0;
+	transform: rotate(45deg);
+}
+
+
+.glyphicon-chevron-left:before {
+	left: 0.25em;
+	transform: rotate(-135deg);
+}
+
+.time-badge{
+    font-size: 100%;
+}
+#specialist-available-time-html{
+	padding: 20px 0px;
+}
+.appointment-success-message .alert-success{
+	background: #40BAEB;
+	border-color: #2692bd;
+}
+.appointment-success-message h5{
+	color: #fff;
+}
+.occupied{
+	cursor: not-allowed !important;
+}
+.btn-grey{
+	background-color: #DCDCDC;
+}
+.jr_rezervace_table .table td, .jr_rezervace_table .table th{
+	font-weight: normal !important;
+	font-family: Helvetica;
+}
+div.zabuto_calendar .table tr.calendar-month-header td{
+	font-weight: normal;
+}
+div.zabuto_calendar .badge-event, div.zabuto_calendar div.legend span.badge-event{
+	background-color: #40BAEB;
+	font-weight: normal;
+}
+div.zabuto_calendar .table tr td.event div.day, div.zabuto_calendar ul.legend li.event{
+	background-color: #40BAEB;
+	color: #fff;
+	font-weight: normal;
+}
+div.zabuto_calendar .table tr td div.day{
+	border: 2px solid #40BAEB;
+	transition: 0.3s;
+	font-weight: normal !important;
+}
+div.zabuto_calendar .table tr .event div.day:hover{
+	cursor: pointer;
+	background-color: #258fbb;
+	color: #fff;
+}
+div.zabuto_calendar .table tr .event div.day:hover span.badge-event{
+	background-color: #258fbb;
+}
+.appointment-section{
+	font-family: Helvetica !important;
+	min-height: 200px;
+}
+.appointment-section h3{
+	font-family: Helvetica;
+	font-weight: bold;
+}
+.appointment-section button{
+	font-family: Helvetica;
+	padding: 10px 5px;
+}
+.time-btn{
+	background-color: #40BAEB;
+	border-color: #127ca7;
+	transition: 0.3s;
+}
+.time-btn:focus{
+	background-color: #207ba0 !important;
+	box-shadow:0 0 0 .2rem rgba(30, 139, 195, 1);
+}
+.time-btn:hover{
+	background-color: #258fbb;
+}
+.btn-default{
+	background-color: #40BAEB;
+	color: #fff;
+}
+.arrow-btn{
+	line-height: 1;
+	padding: .275rem .65rem;
+	font-size: .85rem;
+	transition: 0.3s;
+}
+.arrow-btn:hover{
+	background-color: #258fbb;
+}
+/*.jr_sluz_area .col-md-6:nth-child(even) h4 {
+	text-align: right;
+}*/
+
+.spinner {
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    -webkit-animation: rotation .6s infinite linear;
+    -moz-animation: rotation .6s infinite linear;
+    -o-animation: rotation .6s infinite linear;
+    animation: rotation .6s infinite linear;
+    border-left: 6px solid rgba(0, 174, 239, .15);
+    border-right: 6px solid rgba(0, 174, 239, .15);
+    border-bottom: 6px solid rgba(0, 174, 239, .15);
+    border-top: 6px solid rgba(0, 174, 239, .8);
+    border-radius: 100%;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
+@-moz-keyframes rotation {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(359deg);
+  }
+}
+
+@-o-keyframes rotation {
+  from {
+    -o-transform: rotate(0deg);
+  }
+  to {
+    -o-transform: rotate(359deg);
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+#spinner-overlay{
+	position: fixed; /* Sit on top of the page content */
+	display: none; /* Hidden by default */
+	width: 100%; /* Full width (cover the whole page) */
+	height: 100%; /* Full height (cover the whole page) */
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+	z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+	cursor: pointer; /* Add a pointer on hover */
+}
